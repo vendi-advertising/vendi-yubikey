@@ -2,5 +2,8 @@
     "require": {
         "enygma/yubikey": "^3.2",
         "vendi-advertising/vendi-shared-utils": "^3.1"
+    },
+    "require-dev": {
+        "wpreadme2markdown/wpreadme2markdown": "^2.0"
     }
 }
