@@ -1,21 +1,15 @@
 #!/bin/bash
 
+#Get into the bin directory regardless of where we're being called from
 cd "$(dirname "$0")"
-cd ..
-
-#Make bin dir if needed
-if [ ! -d bin/ ]; then
-    mkdir bin
-fi
 
 #Download a markdown convertor
-if [ ! -f bin/wp2md ]; then
-    wget https://github.com/wpreadme2markdown/wp-readme-to-markdown/releases/download/2.0.2/wp2md.phar -O bin/wp2md
-    chmod a+x bin/wp2md
+if [ ! -f vendor/bin/wp2md ]; then
+    composer require wpreadme2markdown/wpreadme2markdown --dev
 fi
 
 #Convert readme to markdown
-./bin/wp2md convert < readme.txt > README.md
+./vendor/bin/wp2md convert < readme.txt > README.md
 
 #Look for the wordpress test dir stuff
 if [ ! -d ~/wordpress-i18n-tools/ ]; then
@@ -40,6 +34,3 @@ fi
 
 #Translate
 php ~/wordpress-i18n-tools/tools/i18n/makepot.php wp-plugin . languages/vendi-yubikey.pot
-
-#Jump back
-#popd
