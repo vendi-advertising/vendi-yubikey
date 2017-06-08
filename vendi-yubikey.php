@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Vendi Yubikey
-Description: YubiKey Authentication (hardware-base two-factor/multi-factor authentication) for Wordpress.
+Description: YubiKey authentication (hardware-base two-factor/multi-factor authentication) for Wordpress.
 Plugin URI: https://www.vendiadvertising.com/
 Author: Vendi Advertising (Chris Haas)
-Version: 0.1.0
+Version: 1.0.0
 Text Domain: vendi-yubikey
 Domain Path: /languages
 */
