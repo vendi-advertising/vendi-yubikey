@@ -1,0 +1,6 @@
+{
+    "require": {
+        "enygma/yubikey": "^3.2",
+        "vendi-advertising/vendi-shared-utils": "^3.1"
+    }
+}
