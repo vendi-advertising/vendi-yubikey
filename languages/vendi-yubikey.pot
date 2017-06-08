@@ -1,0 +1,109 @@
+# Copyright (C) 2017 Vendi Yubikey
+# This file is distributed under the same license as the Vendi Yubikey package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Vendi Yubikey 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/vendi-yubikey\n"
+"POT-Creation-Date: 2017-06-08 22:39:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/options.php:7 admin/profile.php:10
+msgid "You do not have permission to perform this action"
+msgstr ""
+
+#: admin/options.php:14
+msgid "Vendi YubiKey Global Options"
+msgstr ""
+
+#: admin/options.php:22
+msgid ""
+"You can get your Yubico Client ID and Secret Key from <a href=\"https://"
+"upgrade.yubico.com/getapikey/\" target=\"_blank\">Yubico&rsquo;s website.</a>"
+msgstr ""
+
+#: admin/options.php:40
+msgid "Yubico Client ID"
+msgstr ""
+
+#: admin/options.php:54
+msgid "Yubico Secret Key"
+msgstr ""
+
+#: admin/options.php:71
+msgid "Save Changes"
+msgstr ""
+
+#: admin/profile.php:16
+msgid "Vendi YubiKey Personal Options"
+msgstr ""
+
+#: admin/profile.php:21
+msgid "Enable YubiKey authentication?"
+msgstr ""
+
+#: admin/profile.php:36
+msgid "No"
+msgstr ""
+
+#: admin/profile.php:52
+msgid "Yes"
+msgstr ""
+
+#: admin/profile.php:58
+msgid "Server key"
+msgstr ""
+
+#: src/Admin/login.php:41
+msgid ""
+"Leave this field blank if a system administrator did not assign you a "
+"physical YubiKey."
+msgstr ""
+
+#: src/Admin/login.php:73
+msgid "The OTP value is required for this user."
+msgstr ""
+
+#: src/Admin/login.php:89
+msgid "An unknown error occurred while logging in."
+msgstr ""
+
+#: src/Admin/login.php:98
+msgid "In correct value for OTP."
+msgstr ""
+
+#: src/Admin/options.php:81
+msgid "<em>Settings not saved!</em> The Client ID field should be a number."
+msgstr ""
+
+#: src/Admin/options.php:102
+msgid ""
+"<em>Settings not saved!</em> The secret key does not appear to be a valid "
+"base64 encoded string."
+msgstr ""
+
+#: src/Admin/options.php:124
+msgid "Your settings have been saved."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Vendi Yubikey"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.vendiadvertising.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"YubiKey authentication (hardware-base two-factor/multi-factor "
+"authentication) for Wordpress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Vendi Advertising (Chris Haas)"
+msgstr ""
